@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MailKit" Version="3.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WAZOI.Backend.Infrastructure\WAZOI.Backend.Infrastructure.csproj" />
+    <ProjectReference Include="..\WAZOI.Backend.Models\WAZOI.Backend.Models.csproj" />
+    <ProjectReference Include="..\WAZOI.Backend.Repository.Common\WAZOI.Backend.Repository.Common.csproj" />
+    <ProjectReference Include="..\WAZOI.Backend.Services.Common\WAZOI.Backend.Services.Common.csproj" />
+  </ItemGroup>
+
+</Project>
